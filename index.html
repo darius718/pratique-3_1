@@ -2,40 +2,56 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Карточки товара в разных стилях</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Цвет и движение в современном интерфейсе</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Навигационное меню -->
+  <header>
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Skeuomorphism -->
-  <div class="card skeuomorph">
-    <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
-      <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
-      <h2>iPhone 17 Pro Cosmic Orange</h2>
-     </a> <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
-    
-    <button class="buy-button">Купить</button>
-  </div>
+  <!-- Карточки в разных стилях -->
+  <main>
+    <div class="cards">
+      <!-- Skeuomorphism -->
+      <div class="card skeuomorph">
+        <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
+          <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
+          <h2>iPhone 17 Pro Cosmic Orange</h2>
+        </a>
+        <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
+        <button class="buy-button">Купить</button>
+      </div>
 
-  <!-- Flat Design -->
-  <div class="card flat">
-    <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
-      <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
-      <h2>iPhone 17 Pro Cosmic Orange</h2>
-	</a> <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
-    
-    <button class="buy-button">Купить</button>
-  </div>
+      <!-- Flat Design -->
+      <div class="card flat">
+        <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
+          <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
+          <h2>iPhone 17 Pro Cosmic Orange</h2>
+        </a>
+        <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
+        <button class="buy-button">Купить</button>
+      </div>
 
-  <!-- Material Design -->
-  <div class="card material">
-    <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
-      <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
-      <h2>iPhone 17 Pro Cosmic Orange</h2>
-     </a> <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
-    
-    <button class="buy-button">Купить</button>
-  </div>
-
+      <!-- Material Design -->
+      <div class="card material">
+        <a href="https://www.apple.com/iphone-17-pro/" target="_blank">
+          <img src="iphone.jpg" alt="iPhone 17 Pro Orange">
+          <h2>iPhone 17 Pro Cosmic Orange</h2>
+        </a>
+        <p>Новый iPhone 17 Pro с процессором A19 Bionic и камерой 108 Мп.</p>
+        <button class="buy-button">Купить</button>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
